@@ -1,0 +1,26 @@
+{
+    "name": "nightworlds",
+    "displayName": "Nightworlds",
+    "description": "Dark color theme",
+    "version": "1.0.0-alpha.0",
+    "engines": {
+        "vscode": "^1.63.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "keywords": [
+        "dark",
+        "soft",
+        "calm"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Nightworlds",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Nightworlds-color-theme.json"
+            }
+        ]
+    }
+}
