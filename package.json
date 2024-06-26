@@ -8,12 +8,13 @@
     "low-contrast",
     "relaxed"
   ],
-  "version": "0.0.1",
+  "version": "0.0.2",
 
   "publisher": "feafarot",
   "repository": {
     "url": "https://github.com/feafarot/nightworlds"
   },
+  "icon": "icon.png",
   "author": {
     "name": "Roman Konkin",
     "url": "https://github.com/feafarot"

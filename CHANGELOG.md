@@ -6,3 +6,7 @@ All notable changes to the "nightworlds" extension will be documented in this fi
 
 - Initial release
 - Updated version of my old unreleased theme, decent JS/TS/CSS/C# lang support
+
+## [0.0.2] 2024-06-25
+
+- Add icon
