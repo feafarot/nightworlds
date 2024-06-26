@@ -6,12 +6,12 @@
     "enumMember": {
       "foreground": "#d4d4d4"
     },
-    "typeParameter": "#98B89D",
-    "extensionMethod": "#AEDAC8",
-    "regexAnchor": "#D688D4",
-    "regexOtherEscape": "#D688D4",
-    "regexSelfEscapedCharacter": "#D688D4",
-    "stringEscapeCharacter": "#D688D4"
+    "variable.constant": {
+      "foreground": "#f7f986"
+    },
+    "variable.defaultLibrary": {
+      "foreground": "#1cb7e3"
+    }
   },
   "tokenColors": [
     {
@@ -95,7 +95,7 @@
       "name": "regexp constant character-class",
       "scope": "constant.other.character-class.regexp",
       "settings": {
-        "foreground": "#56B6C2"
+        "foreground": "#c5dcee"
       }
     },
     {
@@ -197,6 +197,13 @@
       }
     },
     {
+      "name": "js/ts variable.other.constant",
+      "scope": "variable.other.constant",
+      "settings": {
+        "foreground": "#1cb7e3"
+      }
+    },
+    {
       "name": "java type",
       "scope": [
         "storage.type.annotation.java",
@@ -273,28 +280,7 @@
       "name": "support.constant.property-value.scss",
       "scope": "support.constant.property-value.scss,support.constant.property-value.css",
       "settings": {
-        "foreground": "#d4d4d4"
-      }
-    },
-    {
-      "name": "CSS/SCSS/LESS At keyword",
-      "scope": "keyword.control.at-rule",
-      "settings": {
-        "foreground": "#D688D4"
-      }
-    },
-    {
-      "name": "CSS tag",
-      "scope": "entity.name.tag.css",
-      "settings": {
-        "foreground": "#3BA6C4"
-      }
-    },
-    {
-      "name": "CSS refs",
-      "scope": "entity.name.tag.reference",
-      "settings": {
-        "foreground": "#d4d4d4"
+        "foreground": "#f7f986"
       }
     },
     {
@@ -387,7 +373,13 @@
         "foreground": "#f7f986"
       }
     },
-
+    {
+      "name": "js console function",
+      "scope": "entity.name.function,support.function.console",
+      "settings": {
+        "foreground": "#61afef"
+      }
+    },
     {
       "name": "keyword.operator.misc.rust",
       "scope": "keyword.operator.misc.rust",
@@ -599,6 +591,18 @@
       }
     },
     {
+      "name": "Functions",
+      "scope": [
+        "entity.name.function",
+        "meta.require",
+        "support.function.any-method",
+        "variable.function"
+      ],
+      "settings": {
+        "foreground": "#61afef"
+      }
+    },
+    {
       "name": "Classes",
       "scope": "entity.name.type.namespace",
       "settings": {
@@ -695,16 +699,16 @@
     },
     {
       "name": "Support",
-      "scope": "source.css support.function ",
+      "scope": "support.function",
       "settings": {
-        "foreground": "#98B89D"
+        "foreground": "#d4d4d4"
       }
     },
     {
       "name": "Support type",
       "scope": "support.type.property-name",
       "settings": {
-        "foreground": "#C5DCEE"
+        "foreground": "#d4d4d4"
       }
     },
     {
@@ -774,20 +778,21 @@
       "name": "Tags",
       "scope": "entity.name.tag",
       "settings": {
-        "foreground": "#6395C5"
+        "foreground": "#c5dcee"
       }
     },
     {
       "name": "Attributes",
       "scope": "entity.other.attribute-name",
       "settings": {
-        "foreground": "#C5DCEE"
+        "foreground": "#f7f986"
       }
     },
     {
       "name": "Attribute IDs",
       "scope": "entity.other.attribute-name.id",
       "settings": {
+        "fontStyle": "normal",
         "foreground": "#61afef"
       }
     },
@@ -795,7 +800,8 @@
       "name": "Attribute class",
       "scope": "entity.other.attribute-name.class.css",
       "settings": {
-        "foreground": "#1CB7E3"
+        "fontStyle": "normal",
+        "foreground": "#f7f986"
       }
     },
     {
@@ -823,7 +829,7 @@
       "name": "Units",
       "scope": "keyword.other.unit",
       "settings": {
-        "foreground": "#D19A66"
+        "foreground": "#c5dcee"
       }
     },
     {
@@ -960,9 +966,9 @@
     },
     {
       "name": "Escape Characters",
-      "scope": "constant.character.escape,keyword.control.anchor.regexp",
+      "scope": "constant.character.escape",
       "settings": {
-        "foreground": "#D688D4"
+        "foreground": "#d4d4d4"
       }
     },
     {
@@ -1479,22 +1485,13 @@
       }
     },
     {
-      "name": "html custom tags",
-      "scope": [
-        "meta.tag.custom entity.name.tag "
-      ],
-      "settings": {
-        "foreground": "#3BA6C4"
-      }
-    },
-    {
       "name": "styling css pseudo-elements/classes to be able to differentiate from classes which are the same colour",
       "scope": [
         "entity.other.attribute-name.pseudo-element",
         "entity.other.attribute-name.pseudo-class"
       ],
       "settings": {
-        "foreground": "#56B6C2"
+        "foreground": "#d4d4d4"
       }
     },
     {
@@ -1635,6 +1632,15 @@
       "scope": [
         "support.type.swift",
         "support.type.vb.asp"
+      ],
+      "settings": {
+        "foreground": "#1cb7e3"
+      }
+    },
+    {
+      "name": "heading 1, keyword",
+      "scope": [
+        "entity.name.function.xi"
       ],
       "settings": {
         "foreground": "#1cb7e3"
@@ -1840,8 +1846,8 @@
   ],
   "colors": {
     "foreground": "#d3d3d3",
-    "focusBorder": "#568af2",
-    "selection.background": "#00518c",
+    "focusBorder": "#007fd4",
+    "selection.background": "#256aa7",
     "scrollbar.shadow": "#000000",
     "activityBar.foreground": "#ffffff",
     "activityBar.background": "#21252b",
@@ -1870,8 +1876,7 @@
     "listFilterWidget.outline": "#00000000",
     "listFilterWidget.noMatchesOutline": "#be1100",
     "statusBar.foreground": "#ffffff",
-    "statusBar.background": "#21252b",
-    "statusBar.border": "#343434",
+    "statusBar.background": "#007acc",
     "statusBarItem.hoverBackground": "#ffffff1f",
     "statusBar.debuggingBackground": "#cc6633",
     "statusBar.debuggingForeground": "#ffffff",

@@ -1,26 +1,25 @@
 {
-    "name": "nightworlds",
-    "displayName": "Nightworlds",
-    "description": "Dark color theme",
-    "version": "1.0.0-alpha.0",
-    "engines": {
-        "vscode": "^1.63.0"
-    },
-    "categories": [
-        "Themes"
-    ],
-    "keywords": [
-        "dark",
-        "soft",
-        "calm"
-    ],
-    "contributes": {
-        "themes": [
-            {
-                "label": "Nightworlds",
-                "uiTheme": "vs-dark",
-                "path": "./themes/Nightworlds-color-theme.json"
-            }
-        ]
-    }
+  "name": "nightworlds",
+  "displayName": "nightworlds",
+  "description": "Dark low-contrast theme with soft editor color scheme",
+  "author": {
+    "name": "Roman Konkin",
+    "url": "https://github.com/feafarot"
+  },
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.90.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Nightworlds",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Nightworlds-color-theme.json"
+      }
+    ]
+  }
 }
