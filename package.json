@@ -1,12 +1,23 @@
 {
   "name": "nightworlds",
   "displayName": "nightworlds",
-  "description": "Dark low-contrast theme with soft editor color scheme",
+  "description": "Dark and low-contrast theme with soft editor color scheme",
+  "keywords": [
+    "theme",
+    "dark",
+    "low-contrast",
+    "relaxed"
+  ],
+  "version": "0.0.1",
+
+  "publisher": "feafarot",
+  "repository": {
+    "url": "https://github.com/feafarot/nightworlds"
+  },
   "author": {
     "name": "Roman Konkin",
     "url": "https://github.com/feafarot"
   },
-  "version": "0.0.1",
   "engines": {
     "vscode": "^1.90.0"
   },
