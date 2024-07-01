@@ -11,7 +11,13 @@
     "regexAnchor": "#D688D4",
     "regexOtherEscape": "#D688D4",
     "regexSelfEscapedCharacter": "#D688D4",
-    "stringEscapeCharacter": "#D688D4"
+    "stringEscapeCharacter": "#D688D4",
+    "hcl-blockType": "#61AFEF",
+    "hcl-blockLabel.terraform-resource": "#1CB7E3",
+    "hcl-blockLabel.terraform-name": "#D4D4D4",
+    "hcl-referenceStep": "#D4D4D4",
+    "hcl-functionName": "#98B89D",
+    "property.declaration": "#B6DDFD",
   },
   "tokenColors": [
     {
@@ -1309,10 +1315,12 @@
       "scope": [
         "punctuation.definition.template-expression.begin",
         "punctuation.definition.template-expression.end",
-        "punctuation.section.embedded"
+        "punctuation.section.embedded",
+        "keyword.other.interpolation.begin",
+        "keyword.other.interpolation.end"
       ],
       "settings": {
-        "foreground": "#6395c5"
+        "foreground": "#D19A66"
       }
     },
     {
@@ -1783,7 +1791,6 @@
       "name": "Comments",
       "scope": "comment, punctuation.definition.comment",
       "settings": {
-        "fontStyle": "italic",
         "foreground": "#5c6370"
       }
     },
@@ -1820,7 +1827,6 @@
       "name": "comment",
       "scope": "comment.line.double-slash,comment.block.documentation",
       "settings": {
-        "fontStyle": "italic"
       }
     },
     {
@@ -1835,6 +1841,13 @@
       "scope": "markup.italic.markdown",
       "settings": {
         "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "HCL special",
+      "scope": "keyword.operator.heredoc.hcl,keyword.control.heredoc.hcl",
+      "settings": {
+        "foreground": "#E06C75",
       }
     }
   ],
@@ -1917,8 +1930,8 @@
     "editorWhitespace.foreground": "#2a2e37",
     "editor.selectionHighlightBackground": "#add6ff26",
     "editor.selectionHighlightBorder": "#495F77",
-    "editor.findMatchBackground": "#515c6a",
-    "editor.findMatchBorder": "#74879f",
+    "editor.findMatchBackground": "#42557B",
+    "editor.findMatchBorder": "#3b7eb1",
     "editor.findMatchHighlightBackground": "#65c3e844",
     "editor.findMatchHighlightBorder": "#ffffff00",
     "editor.findRangeHighlightBackground": "#3a3d4166",
