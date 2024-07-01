@@ -10,3 +10,7 @@ All notable changes to the "nightworlds" extension will be documented in this fi
 ## [0.0.2] 2024-06-25
 
 - Add icon
+
+## [0.0.3] 2024-06-25
+
+- Update icon
